@@ -49,4 +49,17 @@ if __name__=="__main__":
         print("value found")
 
     else:
+        print("Node with the given value not found")              
+
+    llist=Linkedlist()
+    llist.push(2)
+    llist.push(3)
+    llist.printList()
+
+    out=llist.search(3)
+    #print(out)
+    if out==True:
+        print("value found")
+
+    else:
         print("Node with the given value not found")                    
